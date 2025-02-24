@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grindIndex {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+  width: 100vh;
+  margin: 0;
+}
+
+header main footer {
+  display: flex;
+  width: 100vh;
+  align-items: center;
+  justify-content: center;
+  border: 0.0625rem solid black;
+}
+
+.navBar {
+  display: flex;
+  height: 5rem;
+  background-color: grey;
+  justify-content: center;
+}
+.principal li {
+  text-decoration: none;
+  display: inline;
+  color: black;
+  font-size: 1.0625rem;
+}
+
+.secundaria li {
+  text-decoration: none;
+  display: inline;
+  color: black;
+  font-size: 1.0625rem;
+}
+.lista {
+}
